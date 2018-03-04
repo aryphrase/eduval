@@ -91,6 +91,10 @@ section {
   .caption p{
     font-size: 12px;
   }
+
+  .video-player{
+    height:200px;
+  }
 }
 
 
@@ -171,3 +175,44 @@ section {
 .imagcaption strong{
   font-size:16px;
 }
+
+.video-grid{
+  padding-top: 100%;
+}
+
+.video-caption h2{
+  text-align:left;
+}
+
+.video-list{
+  display:inline-block;
+  padding-bottom: 0;
+}
+
+.thumbnail{
+  width:100%;
+}
+
+.video-list-caption{
+  display:inline;
+  position:relative;
+  float:left;
+}
+
+.video-list-caption h4, p{
+  text-align:left;
+}
+
+.duration {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(134, 135, 122, 0.3);
+    bottom: 30px;
+    right: 25px;
+}
+
+@media only screen and (min-device-width: 601px){
+  .video-player{
+  height:400px;
+  }
+} 
